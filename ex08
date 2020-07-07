@@ -1,0 +1,19 @@
+#include <stdio.h>
+int my_string_index(char* param_1, char param_2)
+{   int i;
+	for(i = 0; param_1[i] !='\0'; i++ )
+		{if(param_2 == param_1[i])
+			{return i;
+		
+	
+			}
+		}
+	
+}
+
+int main(){
+
+	printf("%d",my_string_index("Hello", 'l'));
+
+	return 0;
+}
